@@ -19,14 +19,26 @@
                 </ul>
             </header>
         </div>
-        
-      <video id="Tiger" width="500" height="500" autoplay muted>
-        <source src="tiger.mp4" type="video/mp4">
+      <div id="video1">  
+      <video id="Tiger" width="500" height="500" autoplay muted loop>
+        <source src="tiger.mp4" type="video/mp4" class="img-responsive">
       </video>
-      <script> document.getElementById('Tiger').play(); 
+    </div>
+    <div id="imgDetail">
+      <video id="lifeonland5" width="500" height="500" autoplay muted>
+        <source src="lifeonland5.mp4" type="video/mp4" class="img-responsive">
+      </video>
+    </div>
+      <script> 
+      document.getElementById('Tiger').play();
+
+      $('#imgDetail.video').hover(function () {
+        $('#imgDetail video').show();
+        $('#imgDetail video').get(0).play();
+});
       </script>
 
-
+      
 <div id="footer">
 
 </div>

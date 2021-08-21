@@ -22,3 +22,7 @@
   justify-content: space-between;
   align-items: baseline;
 }
+#imgDetail video
+{
+    display:none;
+}
