@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Waste Management</title>
+      <link rel="stylesheet" href="Whatwe_do_stylesheet.css" type="text/css"/>
+   
+    </head>
+    <body>
+      <div id="container">
+      <div id="header">
+        <header class="flex">
+                <h1>Name</h1>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">What We Do</a></li>
+                    <li><a href="">Recycle Rights</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </header>
+        </div>
+      <div id="video1">  
+      <video id="Tiger" width="500" height="500" autoplay muted loop>
+        <source src="tiger.mp4" type="video/mp4" class="img-responsive">
+      </video>
+    </div>
+    <div id="imgDetail">
+      <video id="lifeonland5" width="500" height="500" autoplay muted>
+        <source src="lifeonland5.mp4" type="video/mp4" class="img-responsive">
+      </video>
+    </div>
+      <script> 
+      document.getElementById('Tiger').play();
+
+      $('#imgDetail.video').hover(function () {
+        $('#imgDetail video').show();
+        $('#imgDetail video').get(0).play();
+});
+      </script>
+
+      
+<div id="footer">
+
+</div>
+</div>
+    </body>
+    </html>
