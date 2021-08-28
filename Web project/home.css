@@ -7,21 +7,34 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(217, 235, 181);
+    
 }
 #header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 3px ;
+    background-image: url(header.jpg);
+    background-size: 100% 100%;
     
 }
 .logo{
     cursor: pointer;
-   margin-right: auto;
-  
+    margin-right: auto;
 }
-
+.name{
+    margin-right: 450px;
+}
+h1{
+    color: rgb(207, 45, 45);
+    height: 100%;
+   
+ 
+}
+h1 span{
+    color: #000;
+    height: 100%;
+ 
+}
 
 .navigation{
     list-style: none;
@@ -31,10 +44,14 @@
 
 .navigation li{
    display: inline-block;
-  padding: 0px 20px;
+   padding: 0px 20px;
+   background-color: aqua;
+   padding: 10px 10px;
 }
 .navigation li a{
     transition: all o.3s ease 0s;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 .navigation li a:hover{
     color: turquoise;
