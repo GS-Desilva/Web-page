@@ -1,28 +1,101 @@
 #header{
-  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 3px ;
+  width: 100%;
   height: 150px;
-  border: 5px solid rgb(224, 0, 0);
+  border: 5px ;
+  min-width:auto;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 #container{
-  width: auto;
-  height: 2000px;
+  width: 100%;
+  height: auto;
   border: 5px solid black;
 }
 
 #footer{
-  margin-top: 1350px;
-  width: auto;
+  margin-top: 1300px;
+  width: 100%;
   height: 150px;
   border: 5px solid gray;
 }
 
-.flex{
+.logo{
+  cursor: pointer;
+  margin-right:auto;
+  float :left;
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  
 }
-#imgDetail video
-{
-    display:none;
+.name{
+  cursor: pointer;
+  margin-right: auto;
+  float :left;
+  padding-top: 70px;
+  padding-right:550px;
+  display: flex;
+}
+
+.logoNname{
+  min-width: 1200px;
+  position: relative;
+  min-width: 1200px;
+}
+
+.navigation{
+  list-style: none;
+  float: right;
+  height: 100%;
+  width: 600px;
+  
+  
+}
+
+.navigation li{
+  display: inline-block;
+  padding: 0px 20px;
+  position: relative;
+  margin: auto;
+  
+}
+.navigation li a{
+   transition: all o.3s ease 0s;
+}
+.navigation li a:hover{
+   color: turquoise;
+}
+a{
+   text-decoration: none;
+}
+button{
+  padding:9px 25x;
+  background-color: tomato;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all o.3s ease 0s;
+}
+
+button:hover{
+  background-color: tomato;
+}
+
+
+
+.intro{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size:medium;
 }
