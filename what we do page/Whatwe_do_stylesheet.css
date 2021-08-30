@@ -141,8 +141,9 @@ button:hover{
 }
 
 .footer-col{
-  width: 25%;
+  width: 20%;
   padding: 0 15px;
+  justify-content: space-between;
 }
 
 .footer-col h4{
