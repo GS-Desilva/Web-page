@@ -84,7 +84,9 @@ button:hover{
 
 .video{
   padding-top:10px;
+  cursor: pointer;
 }
+
 .climate{
   width:80%;
   margin:auto;
@@ -102,7 +104,7 @@ button:hover{
 
 .col{
   flex-basis: 31%;
-  background: #c8e3e8);
+  background: #13363b);
   border-radius: 5px;
   margin-bottom: 5%;
   padding:20px 12px;
@@ -113,6 +115,7 @@ button:hover{
   text-align: center;
   font-weight: 600;
   margin:10px 0px;
+  
 }
 
 .col:hover{
