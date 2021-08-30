@@ -82,8 +82,8 @@ button:hover{
   text-align: center;
 }
 
-.video1{
-  padding-left: 20px;
+.video{
+  padding-top:10px;
 }
 .climate{
   width:80%;
@@ -93,14 +93,16 @@ button:hover{
 }
 
 .row{
-  margin-top:-10px;
+  margin-top:10px;
+  padding-left: -10px;
   display:flex;
   justify-content: space-between;
+  align-content: center;
 }
 
 .col{
   flex-basis: 31%;
-  background: #c8e3e8;
+  background: #c8e3e8);
   border-radius: 5px;
   margin-bottom: 5%;
   padding:20px 12px;
