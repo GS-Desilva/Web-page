@@ -5,12 +5,55 @@
   margin-right: auto;
   box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif;
-}
-
-#header{
-
   
 }
+
+.header {
+    padding: 40px;
+    text-align: center;
+    background-image: url("Drops.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 40px;
+  }
+  
+  /*navbar sticky*/
+  .navbar {
+    overflow: hidden;
+    background-color: #000000;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+  
+  /* Style navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  
+  /* Change color when hover */
+  .navbar a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Active link */
+  .navbar a.active {
+    background-color: #008000;
+    color: white;
+  }
+
 
 #container{
   width: 100%;
@@ -18,58 +61,8 @@
   border: 5px solid black;
 }
 
-.logo{
-  cursor: pointer;
-  margin-right:auto;
-  float :left;
-  padding-top: 20px;
-  display: flex;
-  overflow: auto;
-}
-
-.navigation{
-  list-style: none;
-  float:right;
-  height: 100%;
-  width: 600px;
-  
-  
-}
-
-.navigation li{
-  display: inline-block;
-  padding: 0px 20px;
-  position: relative;
-  margin: auto;
-
-  
-}
-.navigation li a{
-   transition: all o.3s ease 0s;
-}
-.navigation li a:hover{
-   color: turquoise;
-}
-a{
-   text-decoration: none;
-}
-button{
-  padding:9px 25x;
-  background-color: tomato;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all o.3s ease 0s;
-}
-
-button:hover{
-  background-color: tomato;
-}
-
-
-
 .intro{
-  padding-top: 30px;
+  padding-top: 60px;
   padding-left: 20px;
   padding-right: 20px;
   font-size:medium;
@@ -105,10 +98,17 @@ button:hover{
   box-sizing:border-box;
   transition: 0.5s;
 }
+
+.col p{
+  margin-top: 5px;
+}
+
 .h3{
   text-align: center;
   font-weight: 600;
   margin:10px 0px;
+  
+  
   
 }
 
@@ -192,4 +192,3 @@ button:hover{
   background-color: #ffffff;
 
 }
-
