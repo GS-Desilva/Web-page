@@ -56,13 +56,6 @@
     color: white;
   }
 
-
-#container{
-  width: 100%;
-  height: auto;
-  border: 5px solid black;
-}
-
 #body{
   width: 100%;
   height: auto;
@@ -135,9 +128,6 @@
   margin:10px 0px;
   font-family: 'PT Sans Caption', sans-serif;
 }
-.col h3:hover{
-  font-size: larger;
-}
 
 .col:hover{
   box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
@@ -200,6 +190,14 @@
 .prevention-row1 p:hover{
   color: #ffffff;
   padding-left: 10px;
+}
+
+#container{
+  width: 100%;
+  height: auto;
+  border: 5px solid black;
+  max-width: 1170px;
+  margin: auto;
 }
 
 .footer{
