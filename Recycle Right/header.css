@@ -137,7 +137,7 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 	right: 0;
 }
 
-/* NAVIGATION ATTRIBUTES*/
+/*Navigation attributes*/
 
 .CSSgal .bullets {
 	position: absolute;
@@ -164,3 +164,28 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 .CSSgal .bullets > a:hover {
 	background: rgba(255, 255, 255, 0.7) !important;
 }
+	
+	
+/*Navigation button`s functionality part*/	
+
+/* Active button`s attributes */	
+.CSSgal >s:target ~ .bullets >* {      background: rgba(255, 255, 255, 0.5);}
+
+#s1:target ~ .bullets >*:nth-child(1) {background: rgb(255, 255, 255);}
+#s2:target ~ .bullets >*:nth-child(2) {background: rgb(255, 255, 255);}
+#s3:target ~ .bullets >*:nth-child(3) {background: rgb(255, 255, 255);}
+#s4:target ~ .bullets >*:nth-child(4) {background: rgb(255, 255, 255);}
+
+/* visibility related to the previous and next buttons */
+
+.CSSgal >s:target ~ .prevNext >* {      visibility: hidden;}
+
+#s1:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
+#s2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
+#s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
+#s4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
+
+#s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+#s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+#s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+#s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
