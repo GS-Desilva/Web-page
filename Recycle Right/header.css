@@ -1,65 +1,76 @@
-
 body {
-  font-family:Helvetica;
-  margin: 0;
-}
+    font-family:'cardo', serif;
+    margin: 0;
+  }
+  
+  /* Header Title */
+  .header {
+    padding: 40px;
+    text-align: center;
+    background-image: url("Drops.png");
+    background-color: #7998a0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 40px;
+  }
+  
+  /*navbar sticky*/
+  .navbar {
+    overflow: hidden;
+    background-color: #000000;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+  
+  /* Style navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  
+  /* Change color when hover */
+  .navbar a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Active link */
+  .navbar a.active {
+    background-color: #7998a0;
+    color: white;
+  }
 
-/* Header Title */
-.header {
-  padding: 40px;
-  text-align: center;
-  background-image: url("Drops.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-}
+  /* first section*/
+  .intro{
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:medium;
+    text-align: center;
+  }
 
-/* Increase the font size of the heading */
-.header h1 {
-  font-size: 40px;
-}
-
-/*navbar sticky*/
-.navbar {
-  overflow: hidden;
-  background-color: #000000;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-}
-
-/* Style navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-
-/* Change color when hover */
-.navbar a:hover {
-  background-color: #555;
-  color: white;
-}
-
-/* Active link */
-.navbar a.active {
-  background-color: #008000;
-  color: white;
-}
-
-*{box-sizing: border-box; -webkit-box-sizing: border-box; }
+  *{box-sizing: border-box; -webkit-box-sizing: border-box; }
 html, body { height: 100%; }
 body { margin: 0; font: 16px/1.3 sans-serif; }
 
 .CSSgal {
 	position: relative;
 	overflow: hidden;
-	height: 10%; 
+	height: 10%; /* Or set a fixed height */
 }
+
+/* SLIDER */
 
 .CSSgal .slider {
 	height: 100%;
@@ -72,6 +83,7 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 .CSSgal .slider .a{
     padding-left: 20px ;
     padding-right: 20px;
+    color: rgb(255, 255, 255);
 }
 
 .CSSgal .slider .b{
@@ -90,6 +102,7 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
     padding-right: 20px;
     color: rgb(0, 0, 0);
 }
+/* SLIDES */
 
 .CSSgal .slider > * {
 	font-size: 1rem;
@@ -102,6 +115,8 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 	background-size: cover;
 }
 
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+
 .CSSgal .prevNext {
 	position: absolute;
 	z-index: 1;
@@ -110,38 +125,37 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 	height: 0;
 }
 
+.CSSgal .prevNext > div+div {
+	visibility: hidden; /* Hide all but first P/N container */
+}
+
 .CSSgal .prevNext a {
 	background: #fff;
 	position: absolute;
-	width:       60px;
-	height:      60px;
-	line-height: 60px; 
+	width:       40px;
+	height:      40px;
+	line-height: 40px; /* If you want to place numbers */
 	text-align: center;
 	opacity: 0.7;
 	-webkit-transition: 0.3s;
-	transition: 0.3s;
+					transition: 0.3s;
 	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
+					transform: translateY(-50%);
 	left: 0;
 }
-
-.CSSgal .prevNext > div+div {
-	visibility: hidden; 
-
 .CSSgal .prevNext a:hover {
 	opacity: 1;
 }
-
 .CSSgal .prevNext a+a {
 	left: auto;
 	right: 0;
 }
 
-/*Navigation attributes*/
+/* NAVIGATION */
 
 .CSSgal .bullets {
 	position: absolute;
-	z-index: 2;
+	z-index: 1;
 	bottom: 0;
 	padding: 10px 0;
 	width: 100%;
@@ -156,41 +170,43 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 	text-align: center;
 	background: rgba(255, 255, 255, 1);
 	-webkit-transition: 0.3s;
-	transition: 0.3s;
+					transition: 0.3s;
 }
 .CSSgal .bullets > a+a {
-	background: rgba(255, 255, 255, 0.5); 
+	background: rgba(255, 255, 255, 0.5); /* Dim all but first */
 }
 .CSSgal .bullets > a:hover {
 	background: rgba(255, 255, 255, 0.7) !important;
 }
-	
-	
-/*Navigation button`s functionality part*/	
 
-/* Active button`s attributes */	
+/* NAVIGATION BUTTONS */
+/* ALL: */
 .CSSgal >s:target ~ .bullets >* {      background: rgba(255, 255, 255, 0.5);}
+/* ACTIVE */
+#s1:target ~ .bullets >*:nth-child(1) {background: rgba(255, 255, 255,   1);}
+#s2:target ~ .bullets >*:nth-child(2) {background: rgba(255, 255, 255,   1);}
+#s3:target ~ .bullets >*:nth-child(3) {background: rgba(255, 255, 255,   1);}
+#s4:target ~ .bullets >*:nth-child(4) {background: rgba(255, 255, 255,   1);}
+/* More slides? Add here more rules */
 
-#s1:target ~ .bullets >*:nth-child(1) {background: rgb(255, 255, 255);}
-#s2:target ~ .bullets >*:nth-child(2) {background: rgb(255, 255, 255);}
-#s3:target ~ .bullets >*:nth-child(3) {background: rgb(255, 255, 255);}
-#s4:target ~ .bullets >*:nth-child(4) {background: rgb(255, 255, 255);}
-
-/* visibility related to the previous and next buttons */
-
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
 .CSSgal >s:target ~ .prevNext >* {      visibility: hidden;}
-
+/* ACTIVE: */
 #s1:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
 #s2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
 #s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
 #s4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
+/* More slides? Add here more rules */
+
+/* SLIDER ANIMATION POSITIONS */
 
 #s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
 #s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
 #s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
 #s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+/* More slides? Add here more rules */
 
-/* for the conent in side the slides*/
 
 .CSSgal{
 	color: #fff;	
@@ -204,6 +220,7 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 	font-size: 3em;
 }
 
+
 .CSSgal a {
 	border-radius: 50%;
 	margin: 0 3px;
@@ -211,3 +228,17 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 	text-decoration: none;
 }
 
+
+/*content section 1 */
+
+.c1 h1{
+  text-align: center;
+  text-decoration: bold;
+  padding-top: 30px;
+}
+
+.c1 p{
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+}
