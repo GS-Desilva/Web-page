@@ -37,10 +37,41 @@
     color: white;
 }
 .navbar a.active {
-    background-color: #008000;
+    background-color: #499fac;
+    color: white;
+}
+.mobnav {
+    overflow: hidden;
+    background-color: #000000;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+.mobnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none; 
+}
+.mobnav a:hover {
+    background-color: #555;
+    color: white;
+}
+.mobnav a.active {
+    background-color: #499fac;
     color: white;
 }
 
+.mobnav ul li{
+    width: 100%;
+    display: block;
+}
+
+@media screen and(max-width:645px){
+    .navbar{width: 100%;}
+}
 .video-bg{
     width: 100%;
     height: 100%;
@@ -53,14 +84,7 @@
         height: auto;
     }
 }
-@media (max-aspect-ratio:16/9)
-{
-    .video-bg
-    {
-        width: auto;
-        height: 100%;
-    }
-}
+
 
 .container{
     max-width: 1170px;
