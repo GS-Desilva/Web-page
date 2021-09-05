@@ -10,7 +10,9 @@
 .header {
     padding: 40px;
     text-align: center;
-    background-image: url();
+    background-image: url("darkleaves.jpg");
+    background-color:#016064;
+    background-blend-mode:luminosity;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
