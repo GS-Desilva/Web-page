@@ -199,7 +199,6 @@
 #container{
   width: 100%;
   height: auto;
-  border: 5px solid black;
   max-width: 1170px;
   margin: auto;
 }
@@ -274,18 +273,3 @@
 
 }
 
-@media(max-width:577px) 
-
-{
-
-    .footer-col
-
-    {
-
-         width:50%;
-
-         margin-bottom:30px;
-
-    }
-
-}
