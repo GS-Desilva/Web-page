@@ -57,24 +57,23 @@
     background-color:#016064;
     color: white;
   }
-
+/* introduction paragraph */
   .intro p{
     font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 20px;
   }
   
   .intro{
     padding-top: 60px;
-    padding-left: 30px;
-    padding-right: 20px;
     font-size:medium;
-    text-align: center;
-    
+    text-align: justify;
     font-family: 'Source Sans Pro', sans-serif;
   
   }
   
   .intro h1{
     font-family: 'PT Sans Caption', sans-serif;
+    justify-content: space-between;
   }
 
   .introduction{
@@ -98,7 +97,7 @@
   }
   
   .intro:hover{
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.712);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.979);
   }
   .introduction-intro p::before{
     content: '';
@@ -129,6 +128,10 @@
   }
 
 
+    
+    
+  
+ 
 
 /*footer*/
 .container{
