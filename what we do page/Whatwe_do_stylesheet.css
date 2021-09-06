@@ -10,7 +10,9 @@
 .header {
     padding: 40px;
     text-align: center;
-    background-image: url();
+    background-image: url("darkleaves.jpg");
+    background-color:#016064;
+    background-blend-mode:luminosity;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -52,7 +54,7 @@
   
   /* Active link */
   .navbar a.active {
-    background-color: #008000;
+    background-color:#016064;
     color: white;
   }
 
@@ -269,5 +271,21 @@
 .footer-col .social-links a:hover{
   color: #24262b;
   background-color: #ffffff;
+
+}
+
+@media(max-width:577px) 
+
+{
+
+    .footer-col
+
+    {
+
+         width:50%;
+
+         margin-bottom:30px;
+
+    }
 
 }
