@@ -1,3 +1,40 @@
+.header {
+  padding: 40px;
+  text-align: center;
+  background-image: url("../media/darkleaves.jpg");
+  background-color:#016064;
+  background-blend-mode:luminosity;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+/*navbar sticky*/
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Style navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  
+}
 body, html {
     height: 100%;
   }
