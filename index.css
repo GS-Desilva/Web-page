@@ -16,6 +16,7 @@
   }
 .header h1 {
     font-size: 40px;
+    font-family: 'PT Sans Caption', sans-serif;
 }
 .navbar {
     overflow: hidden;
@@ -23,6 +24,7 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .navbar a {
     float: left;
