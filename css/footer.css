@@ -272,21 +272,4 @@
   background-color: #ffffff;
 
 }
-@media(max-width:1170px) 
-
-{
-
-*{
-
-    margin: 0;
-
-    padding: 0;
-
-    box-sizing: border-box;
-
-}
-
-
-
-}
 
