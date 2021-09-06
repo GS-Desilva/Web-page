@@ -272,4 +272,19 @@
   background-color: #ffffff;
 
 }
+@media(max-width:577px) 
+
+{
+
+    .footer-col
+
+    {
+
+         width:50%;
+
+         margin-bottom:30px;
+
+    }
+
+}
 
