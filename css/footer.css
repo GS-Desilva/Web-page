@@ -1,5 +1,5 @@
 .container{
-    max-width: 100%;
+    max-width: 1170px;
     margin: auto;
     
 }
@@ -67,8 +67,16 @@ ul{
     border-radius: 50%;
     color: #ffffff;
     transition: all 0.5s ease;
-  }
-  .footer-col .social-links a:hover{
+}
+.footer-col .social-links a:hover{
     color: #24262b;
     background-color: #ffffff;
-  
+}
+@media(max-width:577px) 
+{
+    .footer-col
+    {
+         width:50%;
+         margin-bottom:30px;
+    }
+}
