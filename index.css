@@ -7,7 +7,7 @@
 .header {
     padding: 40px;
     text-align: center;
-    background-image: url("darkleaves.jpg");
+    background-image: url("media/darkleaves.jpg");
     background-color:#499fac;
     background-blend-mode:luminosity;
     background-repeat: no-repeat;
@@ -39,34 +39,6 @@
 .navbar a.active {
     background-color: #499fac;
     color: white;
-}
-.mobnav {
-    overflow: hidden;
-    background-color: #000000;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-}
-.mobnav a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none; 
-}
-.mobnav a:hover {
-    background-color: #555;
-    color: white;
-}
-.mobnav a.active {
-    background-color: #499fac;
-    color: white;
-}
-
-.mobnav ul li{
-    width: 100%;
-    display: block;
 }
 
 @media screen and(max-width:645px){
