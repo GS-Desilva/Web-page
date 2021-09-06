@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+  }
+  .bg {
+    /* The image used */
+    background-image: url("background.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about_us_heddings{
+    color: azure;
+  }
+  .about_us_para{
+    color: white;
+  }
+  .side_image{
+     /* The image used */
+     background-image: url("5.jpg");
+  
+     /* Full height */
+     height: 640px;
+     width: 540px;
+   
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+  .about_us_hedding3{
+    color: azure;
+    text-align: center;
+  }
+  .about_us_para2{
+    color: white;
+    text-align: center;
+  }
