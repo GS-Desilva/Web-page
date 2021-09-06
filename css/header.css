@@ -3,22 +3,23 @@ body {
     margin: 0;
   }
   
-  /* Header Title */
   .header {
     padding: 40px;
     text-align: center;
-    background-image: url("Drops.png");
-    background-color: #7998a0;
+    background-image: url("../media/darkleaves.jpg");
+    background-color:#016064;
+    background-blend-mode:luminosity;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #ffffff;
+    color: white;
   }
   
   /* Increase the font size of the heading */
   .header h1 {
     font-size: 40px;
+    font-family: 'PT Sans Caption', sans-serif;
   }
-  
+
   /*navbar sticky*/
   .navbar {
     overflow: hidden;
@@ -26,6 +27,7 @@ body {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    font-family: 'Source Sans Pro', sans-serif;
   }
   
   /* Style navigation bar links */
@@ -36,20 +38,20 @@ body {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    
   }
   
-  
-  /* Change color when hover */
-  .navbar a:hover {
-    background-color: #555;
-    color: white;
-  }
-  
-  /* Active link */
-  .navbar a.active {
-    background-color: #7998a0;
-    color: white;
-  }
+ /* Change color when hover */
+ .navbar a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* Active link */
+.navbar a.active {
+  background-color:#016064;
+  color: white;
+}
 
   /* first section*/
   .intro{
