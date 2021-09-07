@@ -71,23 +71,24 @@ body, html {
   .side_image{
      /* The image used */
      background-image: url("../media/3.jpg");
+     float: left;
   
      /* Full height */
      height: 640px;
      width: 540px;
    
-     /* Center and scale the image nicely */
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
+     
+     
   }
-  .{
+  
+  
 
-  }
+  
   .about_us_hedding3{
     color: azure;
     text-align: center;
-    
+    height: 640px;
+    width: 540px;
   }
 
   .about_us_para2{
