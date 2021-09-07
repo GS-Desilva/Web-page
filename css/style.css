@@ -62,9 +62,11 @@ body, html {
   }
   .about_us_heddings{
     color: azure;
+    margin-top: 2%;
   }
   .about_us_para{
     color: white;
+    
   }
   .side_image{
      /* The image used */
@@ -79,10 +81,15 @@ body, html {
      background-repeat: no-repeat;
      background-size: cover;
   }
+  .{
+
+  }
   .about_us_hedding3{
     color: azure;
     text-align: center;
+    
   }
+
   .about_us_para2{
     color: white;
     text-align: center;
