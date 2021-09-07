@@ -52,43 +52,22 @@ body, html {
   }
   .bg {
     /* The image used */
-    background-image:url("../media/background.jpg")
+    background-image: url("../media/background.jpg");
   
     /* Full height */
     height: 100%;
+    width: 100%;
   
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .about_us_heddings{
-    color: azure;
-  }
-  .about_us_para{
-    color: white;
-  }
-  .side_image{
-     /* The image used */
-     background-image: url("../media/3.jpg");
-  
-     /* Full height */
-     height: 640px;
-     width: 540px;
-   
-     /* Center and scale the image nicely */
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-  }
-  .about_us_hedding3{
-    color: azure;
-    text-align: center;
-  }
-  .about_us_para2{
-    color: white;
-    text-align: center;
-  }
+
+
+
+
+
   *{
 
     margin: 0;
@@ -179,4 +158,12 @@ ul{
          width:50%;
          margin-bottom:30px;
     }
+}
+*{
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  
 }
