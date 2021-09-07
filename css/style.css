@@ -55,46 +55,19 @@ body, html {
     background-image: url("../media/background.jpg");
   
     /* Full height */
-    width:100%
-    
+    height: 100%;
+    width: 100%;
+  
     /* Center and scale the image nicely */
-  
-  }
-  .about_us_heddings{
-    color: azure;
-    margin-top: 2%;
-  }
-  .about_us_para{
-    color: white;
-    
-  }
-  .side_image{
-     /* The image used */
-     background-image: url("../media/3.jpg");
-     float: left;
-  
-     /* Full height */
-     height: 640px;
-     width: 540px;
-   
-     
-     
-  }
-  
-  
-
-  
-  .about_us_hedding3{
-    color: azure;
-    text-align: center;
-    height: 640px;
-    width: 540px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
-  .about_us_para2{
-    color: white;
-    text-align: center;
-  }
+
+
+
+
   *{
 
     margin: 0;
