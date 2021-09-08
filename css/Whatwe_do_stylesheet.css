@@ -103,13 +103,13 @@ body{
   
   .intro:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.979);
+    cursor: pointer;
   }
   .introduction-intro p::before{
     content: '';
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #e91e63;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -123,13 +123,7 @@ body{
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
-    color: #bbbbbb;
     display: block;
-    transition: all 0.3 ease;
-  }
-  .introduction-intro p:hover{
-    color: #ffffff;
-    padding-left: 10px;
   }
 /*columns*/
 
@@ -145,7 +139,8 @@ body{
   position:static;
   border-radius: 5px;
   margin-bottom: 5%;
-  padding:20px 12px;
+  margin-top: 2px;
+  padding:10px 12px;
   box-sizing:border-box;
   transition: 0.5s;
 }
@@ -154,6 +149,7 @@ body{
   font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
   overflow: hidden;
+  font-size: medium;
   
 }
 
@@ -166,10 +162,39 @@ body{
 }
 
 .col:hover{
-  box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
+  box-shadow: 0 0 20px 0px #016064;
+  cursor: pointer;
 }
- 
+/*impact*/
+.impact p{
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 20px;
+}
 
+.impact{
+  padding-top: 2px;
+  font-size:medium;
+  text-align: justify;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.impact{
+  background-color: #016064;
+  margin-top:10px;
+  padding-left: -10px;
+  display:flex;
+  flex-basis: 31%;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  padding:20px 12px;
+  box-sizing:border-box;
+  transition: 0.5s;
+}
+
+.impact:hover{
+  box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.979);
+  cursor: pointer;
+}
 
 /*footer*/
 .container{
