@@ -63,17 +63,29 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
   .title{
 width: 100%;
 display: flex;
-align-items: center;
-justify-content: center;
 font-size: 22px;
 color: darkgray;
+font-family: 'Urbanist', sans-serif;
 text-transform: uppercase;
-padding: 50px 0px;
 letter-spacing: 1.5px;
-  }
+padding: 30px;
+}
+.title h1::after{
+  content: "";
+  height: 3px;
+  width: 22  0px;
+  border-radius: 06px;
+  position: relative; 
+  display: block;
+  margin: auto;
+  background-color: aliceblue;
+}
+/* Center and scale content nicely */
 .content{
   width: 85%;
   display: grid;
@@ -81,12 +93,14 @@ letter-spacing: 1.5px;
   grid-gap: 40px;
   margin: 30px auto;
 }
+
 .article{
-  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
-  background-color: whitesmoke;
+  margin: 30px;
+  background-color: rgb(155, 146, 146);
   opacity: 0.3;
   padding: 25px 25px;
 }
+
 .content .article h2{
   color: #000000;
   text-align: center;
@@ -98,16 +112,17 @@ letter-spacing: 1.5px;
 .content .article p{
   margin-top: 30px;
   font-size: 19px;
+  font-style: inherit;
   text-align: center;
   line-height: 1.5;
-  color: #000000;
+  color:rgb(7, 6, 6);
 }
 .image-section{
   width: 100%;
-  margin: auto;
+  margin: 30px;
 }
 .image-section img{
-  width: 100%;
+  width: 75%;
   height: auto;
 }
 
