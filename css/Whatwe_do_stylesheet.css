@@ -49,7 +49,11 @@ body{
     text-decoration: none;
     
   }
-  
+  @media(min-width="676px"){
+    .navbar a{
+      font-size:1.0rem;
+    }
+  }
   
   /* Change color when hover */
   .navbar a:hover {
@@ -86,6 +90,7 @@ body{
     margin:auto;
     text-align: justify;
     padding-top: -50px;
+    padding-bottom: -10px;
   }
   .intro{
     background-color: #016064;
@@ -105,26 +110,8 @@ body{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.979);
     cursor: pointer;
   }
-  .introduction-intro p::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-  }
-  .introduction-intro p:not(:last-child){
-    margin-bottom: 10px;
-  }
-  .introduction-intro p{
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 300;
-    display: block;
-  }
+ 
+
 /*columns*/
 
 .effects{
