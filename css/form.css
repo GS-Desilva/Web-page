@@ -13,7 +13,7 @@ margin: 0;
 outline: none;
 font-family: Roboto, Arial, sans-serif;
 font-size: 14px;
-color: white;   /*white*/
+color:black;  
 line-height: 22px;
 }
 
@@ -112,6 +112,12 @@ th, td {
 word-break: keep-all;
 }
 }
+.shedule{
+font-color:white;
+
+}
+
+
 
 </style>
 </head>
