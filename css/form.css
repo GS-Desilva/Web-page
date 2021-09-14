@@ -31,6 +31,7 @@ justify-content: center;
 align-items: center;
 height: inherit;
 padding: 3px;
+font-color:black;
 }
 
 form {
@@ -51,6 +52,7 @@ vertical-align: middle;
 .email {
 display: block;
 width: 45%;
+font-color:black;
 }
 
 input:hover, textarea:hover {
