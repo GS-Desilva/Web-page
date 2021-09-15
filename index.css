@@ -48,7 +48,7 @@
     width: 100%;
     height: 100%;
 }
-/*bg video responsive solved*/
+/*responsiveness of bg video solved*/
 @media (min-aspect-ratio:16/9)
 {
     .video-bg
