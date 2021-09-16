@@ -14,7 +14,7 @@
     background-size: cover;
     color: white;
 }
-.header h1 {
+.header h1{
     font-size: 40px;
     font-family: 'PT Sans Caption', sans-serif;
 }
@@ -37,10 +37,6 @@
 }
 .navbar a:hover {
     background-color: #555;
-    color: white;
-}
-.navbar a.active {
-    background-color: #499fac;
     color: white;
 }
 
