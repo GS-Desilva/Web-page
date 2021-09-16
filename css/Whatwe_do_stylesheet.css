@@ -49,11 +49,6 @@ body{
     text-decoration: none;
     
   }
-  @media(min-width="676px"){
-    .navbar a{
-      font-size:1.0rem;
-    }
-  }
   
   /* Change color when hover */
   .navbar a:hover {
