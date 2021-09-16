@@ -275,6 +275,34 @@ p {
 
 /*END PAGE DIVIDERS*/
 
+/* first section*/
+
+.intro-heading{
+  text-align: center;
+  padding-top: 60px;
+  font-size: 3em;
+  margin: 1%;
+
+}
+
+.intro-para{
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size:medium;
+  text-align: center;
+}
+
+.intro-para2{
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  font-size:medium;
+  text-align: center;
+}
+/* first section END*/
+
 /* footer*/
 
 .footer{
