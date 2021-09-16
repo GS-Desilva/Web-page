@@ -49,23 +49,13 @@ body{
     text-decoration: none;
     
   }
-  @media(min-width="676px"){
-    .navbar a{
-      font-size:1.0rem;
-    }
-  }
   
   /* Change color when hover */
   .navbar a:hover {
     background-color: #555;
     color: white;
   }
-  
-  /* Active link */
-  .navbar a.active {
-    background-color:#016064;
-    color: white;
-  }
+
 /* introduction paragraph */
   .intro p{
     font-family: 'Source Sans Pro', sans-serif;

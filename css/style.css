@@ -62,7 +62,6 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
   }
     @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
   .title{
@@ -75,6 +74,7 @@ font-family: 'Urbanist', sans-serif;
 text-transform: uppercase;
 letter-spacing: 1.5px;
 padding: 30px;
+position: static;
 }
 .title h1::after{
   content: "";
@@ -85,6 +85,7 @@ padding: 30px;
   display: block;
   margin: auto;
   background-color: aliceblue;
+  position: static;
 }
 /* Center and scale content nicely */
 .content{
@@ -93,6 +94,8 @@ padding: 30px;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
   margin: 30px auto;
+  padding-bottom: 30px;
+  position: static;
 }
 
 .article{
@@ -100,6 +103,8 @@ padding: 30px;
   background-color: rgb(155, 146, 146);
   opacity: 0.6;
   padding: 25px 25px;
+  width: 85%;
+  position: static;
 }
 
 .content .article h2{
