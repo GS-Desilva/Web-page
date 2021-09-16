@@ -60,6 +60,7 @@
     margin: auto;
     
 }
+/*display the quick links as row by row*/
 .row{
     display: flex;
     flex-wrap: wrap;
