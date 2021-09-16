@@ -59,15 +59,18 @@ body, html {
     width: 100%;
   
     /* Center and scale the image nicely */
-    background-position: center;
+    background-position: static;
     background-repeat: no-repeat;
     background-size: cover;
+    
+      
+    
   }
     @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
   .title{
 width: 100%;
 display: flex;
-font-size: 22px;
+font-size: calc(20px + 1vw);
 font-weight: bold;
 color: darkgray;
 font-family: 'Urbanist', sans-serif;
@@ -95,7 +98,7 @@ position: static;
   grid-gap: 40px;
   margin: 30px auto;
   padding-bottom: 30px;
-  position: static;
+  
 }
 
 .article{
@@ -104,20 +107,21 @@ position: static;
   opacity: 0.6;
   padding: 25px 25px;
   width: 85%;
+  height: auto;
   position: static;
 }
 
 .content .article h2{
   color: #000000;
   text-align: center;
-  font-size: 22px;
+  font-size: calc(12px + 1vw);
   line-height: 1.5;
   letter-spacing: 1px;
 
 }
 .content .article p{
   margin-top: 30px;
-  font-size: 19px;
+  font-size: calc(9px + 1vw);
   font-style: inherit;
   text-align: center;
   line-height: 1.5;
