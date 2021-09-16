@@ -246,11 +246,13 @@ body {
 }
 h1 {
   text-align:center;
+  padding-bottom: 20px;
   font-size:50px;
   font-weight:normal;
 }
 p {
   font-size:20px;
+  text-align: center;
 }
 
 
