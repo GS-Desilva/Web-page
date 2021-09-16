@@ -14,7 +14,7 @@
     background-size: cover;
     color: white;
 }
-.header h1 {
+.header h1{
     font-size: 40px;
     font-family: 'PT Sans Caption', sans-serif;
 }
@@ -39,10 +39,6 @@
     background-color: #555;
     color: white;
 }
-.navbar a.active {
-    background-color: #499fac;
-    color: white;
-}
 
 .video-bg{
     width: 100%;
@@ -64,6 +60,7 @@
     margin: auto;
     
 }
+/*display the quick links as row by row*/
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -71,6 +68,7 @@
 ul{
     list-style: none;
 }
+/*footer decoration*/
 .footer{
     background-color: #24262b;
     padding: 70px 0;
@@ -127,8 +125,9 @@ ul{
     line-height: 40px;
     border-radius: 50%;
     color: #ffffff;
-    transition: all 0.5s ease;
+    transition: all 0.5s ease; /*transition added*/
 }
+/*social media link hovering*/
 .footer-col .social-links a:hover{
     color: #24262b;
     background-color: #ffffff;

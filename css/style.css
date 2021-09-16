@@ -41,11 +41,6 @@
   color: white;
 }
 
-/* Active link */
-.navbar a.active {
-  background-color:#016064;
-  color: white;
-}
 
 body, html {
     height: 100%;
