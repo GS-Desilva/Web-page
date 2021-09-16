@@ -4,7 +4,6 @@
   
 <style>
 html, body {
-min-height: 100%;
 }
 
 body, div, form, input, p { 
@@ -13,7 +12,7 @@ margin: 0;
 outline: none;
 font-family: Roboto, Arial, sans-serif;
 font-size: 14px;
-color: white;   /*white*/
+color:black;  
 line-height: 22px;
 }
 
@@ -31,6 +30,7 @@ justify-content: center;
 align-items: center;
 height: inherit;
 padding: 3px;
+font-color:black;
 }
 
 form {
@@ -48,9 +48,13 @@ border-radius: 3px;
 vertical-align: middle;
 }
 
+
+
+
 .email {
 display: block;
 width: 45%;
+font-color:black;
 }
 
 input:hover, textarea:hover {
@@ -110,6 +114,12 @@ th, td {
 word-break: keep-all;
 }
 }
+.shedule{
+font-color:white;
+
+}
+
+
 
 </style>
 </head>
